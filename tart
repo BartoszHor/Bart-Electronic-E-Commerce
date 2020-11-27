@@ -1,0 +1,1587 @@
+[33mcommit 23665e91924110c5b6a2758de17d17458ffabfc4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 915ddbd e9497ce
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 24 20:24:02 2020 +0100
+
+    Merge pull request #51 from odevpl/WDP201101-45
+    
+    Wdp201101 45
+
+[33mcommit e9497ce395fd2484f8cb68f3c1d342b33b273ac2[m[33m ([m[1;31mupstream/WDP201101-45[m[33m)[m
+Merge: 179a5bb 915ddbd
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Tue Nov 24 09:43:07 2020 +0100
+
+    Merge branch 'master' into WDP201101-45
+
+[33mcommit 179a5bb9db3758957327959307af9e97a5fe39a3[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 24 09:14:50 2020 +0100
+
+    commit
+
+[33mcommit 915ddbd22c7d5cdb56ce8eb4b96fa45aeda28037[m
+Merge: 717380b 62b85f1
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 24 09:09:48 2020 +0100
+
+    Merge pull request #35 from odevpl/WDP201101-40
+    
+    Wdp201101 40
+
+[33mcommit 62b85f197d033007362cd390b0a4645482706eb1[m[33m ([m[1;31mupstream/WDP201101-40[m[33m)[m
+Merge: 608ceb7 717380b
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 24 09:09:34 2020 +0100
+
+    Merge branch 'master' into WDP201101-40
+
+[33mcommit 717380bf5a13f50ef05dbc848b81f8d180122746[m
+Merge: f903684 57a530e
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 24 09:08:24 2020 +0100
+
+    Merge pull request #42 from odevpl/WDP201101-23
+    
+    Wdp201101 23
+
+[33mcommit c7d53249e8da3d1c39ae3e41f1b358b4cb210394[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 24 08:51:39 2020 +0100
+
+    Move ProductMore component to ProductPage
+
+[33mcommit e4f0d94c736f284fc6a7bc8bee1fb074bf25a44c[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 24 08:40:05 2020 +0100
+
+    Commit
+
+[33mcommit de869d104e0c2058b4ad2012d9fc439801c67a27[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 24 08:28:36 2020 +0100
+
+    Prepare RWD for ProductMore and ProductReview components
+
+[33mcommit a08738263507bc648cc7bd32be67bd08747b0cd9[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Mon Nov 23 22:09:31 2020 +0100
+
+    Add styles for ProductReview component
+
+[33mcommit 358ae229e40cf9092ca25ba03dc2b3664ea61a1f[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Mon Nov 23 21:30:25 2020 +0100
+
+    Add styles for ProductReview component
+
+[33mcommit 3786009ab2ea739415de84744ad7653d7906a3b7[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Mon Nov 23 09:46:09 2020 +0100
+
+    Add condition on content switching in ProductMore component
+
+[33mcommit 2bb61f8c6f09c328986b4f176c0e9ced917ea284[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Mon Nov 23 08:14:52 2020 +0100
+
+    Fix conflicts after rebase to updated master
+
+[33mcommit 1f06cb4d4060f2062b54e40d3778f6916600e63f[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Sun Nov 22 14:28:59 2020 +0100
+
+    Try to fix switching content on cartClick
+
+[33mcommit 7df8ba02425be2a7da8a7906167807d0812fc4b9[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Sun Nov 22 11:09:22 2020 +0100
+
+    Prepare markup for More component
+
+[33mcommit 57a530e6ccef96d38513983a31b2b2162bf7bd1d[m[33m ([m[1;31mupstream/WDP201101-23[m[33m)[m
+Merge: 05bef61 4f5763c
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Mon Nov 23 20:43:06 2020 +0100
+
+    Merge remote-tracking branch 'origin/WDP201101-23' into WDP201101-23
+    
+    # Conflicts:
+    #       src/components/common/PromoProductBox/PromoProductBox.js
+    #       src/components/common/PromoProductBox/PromoProductBox.module.scss
+    #       src/components/common/PromoProductBox/PromoProductBoxContainer.js
+    #       src/components/features/PromoProducts/PromoProducts.js
+    #       src/components/features/PromoProducts/PromoProducts.module.scss
+    #       src/components/features/PromoProducts/PromoProductsContainer.js
+    #       src/redux/initialState.js
+    #       src/redux/productsRedux.js
+
+[33mcommit 05bef61684b8aceb494260640ffd329bace4cec0[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Mon Nov 23 20:41:25 2020 +0100
+
+    Fix promo section functionality
+
+[33mcommit 608ceb7fb5b747c2b9e8006fb9a914a03d2cffd5[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 23 19:08:39 2020 +0100
+
+    Changes introduced
+
+[33mcommit fffd2b83463b0c818f3fda9733d150cdebb14724[m
+Merge: 20d17fc f903684
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 23 19:01:24 2020 +0100
+
+    Merge branch 'master' into WDP201101-40
+
+[33mcommit 6b402180b05512788be4395ce3db7dae789aea7d[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Sun Nov 22 13:25:46 2020 +0100
+
+    Fix promo section functionality
+
+[33mcommit 3223082004fd97e57b409b857dd9d377c83bc308[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 19 18:17:45 2020 +0100
+
+    Fix render bugs
+
+[33mcommit bc3a1be88a28c589d89d1ae41faadc56f280157e[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Wed Nov 18 15:46:42 2020 +0100
+
+    fix promo section functionality
+
+[33mcommit 943741870ad3894eaafcc1194ccd2545e392e2d2[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Mon Nov 16 16:19:22 2020 +0100
+
+    Fix promo section component
+
+[33mcommit 5114c0556c835fca990b1d1fa86ffe559537ade9[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 12 22:52:17 2020 +0100
+
+    Repair console errors and warnings
+
+[33mcommit f9036840fefa1009b1dd924e63c9982a2312c4b5[m
+Merge: e221e26 547ac72
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 23 16:37:21 2020 +0100
+
+    Merge pull request #41 from odevpl/WDP201101-37
+    
+    Add Swipe to Brands
+
+[33mcommit e221e2697f2a97be030fd25a4eb2783db899718a[m
+Merge: 7c8147a a05d265
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 23 16:36:02 2020 +0100
+
+    Merge pull request #48 from odevpl/WDP201102-42-fix
+    
+    Add columns to shop section
+
+[33mcommit a05d26567a8724318fd85c9473d2ade331cc9e8b[m[33m ([m[1;31mupstream/WDP201102-42-fix[m[33m)[m
+Author: odevpl <kontakt@odev.pl>
+Date:   Mon Nov 23 16:35:18 2020 +0100
+
+    Add columns to shop section
+
+[33mcommit 20d17fc5ffaeaad11ffe02ffc0e0f1ccddf9d4c5[m
+Merge: 8ffa1bb 4e87fbd
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 23 13:07:36 2020 +0100
+
+    Merge branch 'WDP201101-40' of github.com:odevpl/wdp-2011-01 into WDP201101-40
+
+[33mcommit 4e87fbd9718c7161eb7764399a6fdae4df1b3ad2[m
+Merge: 3af4898 7c8147a
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 23 08:29:11 2020 +0100
+
+    Merge branch 'master' into WDP201101-40
+
+[33mcommit 7c8147ab0705d2f9b71cd26e0a8c459f48de663f[m
+Merge: e029555 98d312b
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 23 00:16:46 2020 +0100
+
+    Merge pull request #37 from odevpl/WDP201101-42
+    
+    Add Product Page functionality
+
+[33mcommit 98d312b6c8868a24365ffb25c7748e5ee0b7dd7e[m
+Merge: 263004e e029555
+Author: joanna-stachowicz <66261739+joanna-stachowicz@users.noreply.github.com>
+Date:   Mon Nov 23 00:03:43 2020 +0100
+
+    Merge branch 'master' into WDP201101-42
+
+[33mcommit e029555ed4e165ec50cdc7ce1aceb5dcfff1c44a[m
+Author: odevpl <kontakt@odev.pl>
+Date:   Sun Nov 22 23:27:32 2020 +0100
+
+    Fix for scss
+
+[33mcommit 3d8420d86763a07bd776fd900a7b58c552abcaf9[m
+Merge: a207010 4ac7197
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sun Nov 22 22:27:05 2020 +0100
+
+    Merge pull request #40 from odevpl/WDP201101-47
+    
+    WDP201101-47
+
+[33mcommit 8ffa1bb0259d40ca496cf99136b35db4785bed12[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 22 19:49:31 2020 +0100
+
+    Git wanted to save changes so i did ;)
+
+[33mcommit a6a0ded0e4d5f13d8bab4f5a3b6b4373757b1b2f[m
+Merge: 2340d41 a207010
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 22 19:40:45 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into WDP201101-40
+
+[33mcommit 263004ec30901555206a710a60576b39294c5848[m
+Merge: cf3d564 6e79980
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sun Nov 22 17:18:16 2020 +0100
+
+    Merge branch master into WDP201101-42
+
+[33mcommit cf3d56473b5eaef893d5fdb474dfafba327b37c1[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sun Nov 22 16:43:24 2020 +0100
+
+    Fix fonts
+
+[33mcommit 4f5763cead2bbc0f92052ae0a63d249f30c2d2dc[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 19 18:17:45 2020 +0100
+
+    Fix render bugs
+
+[33mcommit 16f4a91260c0c51b704d04b6016db62bc069a497[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Wed Nov 18 15:46:42 2020 +0100
+
+    fix promo section functionality
+
+[33mcommit fee8237f2f917d448c7b673b4d6b44684f7d45bd[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Mon Nov 16 16:19:22 2020 +0100
+
+    Fix promo section component
+
+[33mcommit 94a9e1494ba902dd2561b2d10e03ebd57d51b12c[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 12 22:52:17 2020 +0100
+
+    Repair console errors and warnings
+
+[33mcommit a207010cc097c012850660a114f1ba35fc5a884e[m
+Merge: 6e79980 d162849
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sun Nov 22 09:55:14 2020 +0100
+
+    Merge pull request #33 from odevpl/WDP201101-22
+    
+    Wdp201101 22
+
+[33mcommit 4ac719784dcee391485f42c47309c493b5c9be37[m[33m ([m[1;31mupstream/WDP201101-47[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Sun Nov 22 08:07:24 2020 +0100
+
+    Final commit
+
+[33mcommit 3af4898e955eda252476c5d84aaf831ffdf54e8c[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sat Nov 21 22:01:24 2020 +0100
+
+    Wdp201101 40
+
+[33mcommit d162849fc34cb6e22ff158c51c9d46aeee9e3e18[m[33m ([m[1;31mupstream/WDP201101-22[m[33m)[m
+Merge: 4de80b8 6e79980
+Author: OJoachim <66662598+OJoachim@users.noreply.github.com>
+Date:   Sat Nov 21 20:15:55 2020 +0100
+
+    Merge branch 'master' into WDP201101-22
+
+[33mcommit 1e614dc39dd5721dba9fcbcbf5c692da692b0f6b[m
+Merge: 2340d41 6e79980
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Sat Nov 21 20:10:16 2020 +0100
+
+    Merge branch 'master' into WDP201101-40
+
+[33mcommit 2340d41ff1cbba3101eea301239f8ddd11d143ba[m
+Merge: 35c703b 7138c5f
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sat Nov 21 20:05:04 2020 +0100
+
+    Succesful rebase
+
+[33mcommit 35c703baea758bf5192e535bdb81260cd14a17af[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sat Nov 21 19:40:37 2020 +0100
+
+    Changes according to suggestions done
+
+[33mcommit 8a66b990dadd6f7dd7bdbc781dd27843b6ef42ae[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 22:22:30 2020 +0100
+
+    Improve design, now all good
+
+[33mcommit b6088439ca0532ecfa4b6dcec85a51ee2983dee2[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 22:07:30 2020 +0100
+
+    Change Sale component design
+
+[33mcommit 58c42ad2e95dd1512b9c0272fd61cd1fc50b6e86[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:14:10 2020 +0100
+
+    change mapStateToProps in SaleContainer
+
+[33mcommit 7668ad750983ffcd7e9d35736f480163acbaa12d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 12 22:08:31 2020 +0100
+
+    Finished Sale component
+
+[33mcommit ac14e0a587c8ad0e854668aeb097d58e4edda66f[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 12 21:47:11 2020 +0100
+
+    Sale component with redux state & styling
+
+[33mcommit 925e731bb9b48d10fe2f7ec3490c3626f98899d1[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 20:58:07 2020 +0100
+
+    Add redux to get initialState
+
+[33mcommit 9cb57320d00e8564e86acf5de69481568c9f4c5d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 20:29:07 2020 +0100
+
+    initialState data not loaded to Sale.js
+
+[33mcommit f4ec7b2451d80e978eac383792b5835d33aac2d1[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 19:33:48 2020 +0100
+
+    Add basic Sale.js
+
+[33mcommit af89ff049ead2f7827f891ee0002e3e5ca708197[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 19 16:12:55 2020 +0100
+
+    Repair bug in styling FeatureBox component and set RWD
+
+[33mcommit 57fa6369bb7245f5dae8942794e1aab6236d8372[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 12 22:52:17 2020 +0100
+
+    Repair console errors and warnings
+
+[33mcommit 63235892a12df25f194b833e56418db08bcd1105[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 19 21:14:34 2020 +0100
+
+    changes resolved
+
+[33mcommit 63b587484fb6d988e9616ec7b16ee9240f83a34d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit 0da2573bcb82a91228b216b1cb75596e540ba2cb[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit 001934b5cc91b60c8f59b8eb7f43035ce46f2f7e[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit 4250d1363d50f4f692e6d604afd85b69af8a726a[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit cb1d4d754904c07367cc9db78a1371affbb3dbae[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit d9b4ff7003f3ce0f929e5d41d4d68e2d69ae2ff6[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit 900582c304e19368b244435ec0bb8dcb9344b53d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit 12bf4a7182c392531d26fd75bd729cbfd54e2a5f[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit 684cb24db011f69881f44bc7038e25963e590d05[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit 08bb79de0af75817c5ebcb20fea201d435c1f29d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit 8649f33acbf3a23fe8e413a5bf802bb66585a7c7[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit 4de09d97dafed2fe5bb1457b2dde6c0d80ae7a23[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit 56930aab195ef02e25a33ea6362bfb01b5f00c54[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit a5aab034ff5f5a62ea78ad9fc8dceb240fdbb180[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit 47b74202112e01001a776cb59ffe9454a544dc85[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit f15f80a86600d7f6ba8bbf28a6c1b48daec45d9c[m
+Author: Aleksandra Joachimiak <joachim07@poczta.onet.pl>
+Date:   Sat Nov 14 22:49:53 2020 +0100
+
+    WDP201101-38, images in NewFerniture
+
+[33mcommit 3b90c9b63a3e01d7e7141ddf5b09a97b88186c96[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Tue Nov 17 20:13:50 2020 +0100
+
+    Add complete banner component
+
+[33mcommit 4eb0b96956559db403a921eafa27b928c249d71c[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 23:25:56 2020 +0100
+
+    Add Banner.js and Banner.scss
+
+[33mcommit 547ac7278e65cc0f1d15452ad70c8c0ef37cf984[m[33m ([m[1;31mupstream/WDP201101-37[m[33m)[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sat Nov 21 00:21:05 2020 +0100
+
+    Add Swipe to Brands
+
+[33mcommit 6e79980c6cd4145306b41fc8843e0d0942aaa57a[m
+Merge: cd8e819 bf6f9b4
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 20 23:10:19 2020 +0100
+
+    Merge pull request #24 from odevpl/WDP201101-25
+    
+    Wdp201101-25
+
+[33mcommit cd8e8192388f7852372b931c5c56bff1a8e7af24[m
+Merge: 47d9565 ac18fdd
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 20 23:07:02 2020 +0100
+
+    Merge pull request #39 from odevpl/WDP201101-54
+    
+    WDP201101-54
+
+[33mcommit 47d95655066684bd862a750dfd409e8085d72e9f[m
+Merge: c5d6174 9e739e2
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 20 23:05:51 2020 +0100
+
+    Merge pull request #29 from odevpl/WDP201101-38
+    
+    WDP201101-38, images in NewFerniture
+
+[33mcommit f56de5b776c1cf68568c8d74331d6bcad1965f0d[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 20 15:14:13 2020 +0100
+
+    Prepare markup for CategoryFilter component
+
+[33mcommit 9e739e26e2a22c0b41e5d5a7f5037088f408bb2d[m[33m ([m[1;31mupstream/WDP201101-38[m[33m)[m
+Author: OJoachim <66662598+OJoachim@users.noreply.github.com>
+Date:   Fri Nov 20 21:58:04 2020 +0100
+
+    Update ProductBox.js
+    
+    CHANGE:   <div className={styles.root}   FOR:    <div className={styles.root}>
+
+[33mcommit 6363d1a59faa44f7602c717f99d72cbc0b857d05[m
+Merge: 761eb4e c5d6174
+Author: OJoachim <66662598+OJoachim@users.noreply.github.com>
+Date:   Fri Nov 20 03:41:55 2020 +0100
+
+    Merge branch 'master' into WDP201101-38
+
+[33mcommit c5d6174419cc75c8ccd609d9636b784095700ad8[m
+Merge: 273e80d d07b0d0
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 19 23:46:08 2020 +0100
+
+    Merge pull request #32 from odevpl/WDP201101-19
+    
+    Wdp201101 19
+
+[33mcommit d07b0d018087c0476e13ee92e3cd712731a2de8b[m[33m ([m[1;31mupstream/WDP201101-19[m[33m)[m
+Merge: 46f5878 273e80d
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 19 23:46:00 2020 +0100
+
+    Merge branch 'master' into WDP201101-19
+
+[33mcommit 273e80d7b9c82856a4dc06c6d12567f4e6014c20[m
+Merge: 7993f49 6cac7eb
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 19 23:38:25 2020 +0100
+
+    Merge pull request #25 from odevpl/WDP201101-36
+    
+    Repair console errors and warnings
+
+[33mcommit 85aec6cbfcfb9b3c347031f5a8b429cee6bdcdeb[m
+Merge: b5c2eec 7993f49
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Thu Nov 19 23:02:04 2020 +0100
+
+    Merge branch 'master' into WDP201101-42
+
+[33mcommit 675df777963f0a36df058d33353509fe0f8057de[m
+Merge: f7bc50d 7993f49
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 19 22:17:22 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit 7138c5f9de87e14972909ff5989d910bd851bc1a[m
+Merge: 70924b1 7993f49
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Thu Nov 19 21:41:24 2020 +0100
+
+    Merge branch 'master' into WDP201101-40
+
+[33mcommit 46f5878ac61b7fdc531a90606f2c6a74ba7cb73b[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 19 21:14:34 2020 +0100
+
+    changes resolved
+
+[33mcommit 8353d2e4e4950e51525631b131e4fab0db8b1dd7[m
+Merge: 5fbfebc 96a2039
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 19 21:11:15 2020 +0100
+
+    Merge branch 'WDP201101-19' of github.com:odevpl/wdp-2011-01 into WDP201101-19
+
+[33mcommit 5fbfebca07bbc67bd4f0f81667b9f9773d115629[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit 6c3b955d3ad693cc1f5435e6e5a87bd9c74f603f[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit d7e28f08a5e612d00ba170f8edee92188adf5bb3[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit 9cb6e896079e88a8825410766c5bd472d1a556f1[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit a126b7bc06d5bb773103a657ace07ee30bb47e67[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit 7993f491780dfde61693e2614f24b897ae9c5e27[m
+Merge: a4aeecd bb86d55
+Author: Bartosz Janiak <57834204+Hiorii@users.noreply.github.com>
+Date:   Thu Nov 19 20:40:48 2020 +0100
+
+    Merge pull request #26 from odevpl/WDP201101-41
+    
+    Prepare markup for ProductList component and implement Grid-flexbox
+
+[33mcommit 6cac7ebebcf39f46a2f6552979e848372146ded7[m[33m ([m[1;31mupstream/WDP201101-36[m[33m)[m
+Merge: 1895e56 a4aeecd
+Author: Bartosz Janiak <57834204+Hiorii@users.noreply.github.com>
+Date:   Thu Nov 19 20:26:37 2020 +0100
+
+    Merge branch 'master' into WDP201101-36
+
+[33mcommit 891310e0c902313322ed7cec4628fdf01fe95fb7[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit 3522991a27b52283990dda6b8a89ee3372ffac39[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit 0d580458c1d4e2fd330313bddccccf9116fce29a[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit 8b46d4d63c410e0edfa1ce9879d0df5e77fb76ce[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit b6d4901d5bfc59aad607310cbf95a64ad7bc2d5d[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit f7bc50d59ed8d627b77c41a8d2ae52c5760ded40[m
+Merge: e9f0cd7 a4aeecd
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 19 19:31:41 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit ac18fdda0d60b65864e2a2796d1de21ed63f6d4b[m[33m ([m[1;31mupstream/WDP201101-54[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 19 16:12:55 2020 +0100
+
+    Repair bug in styling FeatureBox component and set RWD
+
+[33mcommit 761eb4e5ed9b18dd66b322bfefc554150c76b21a[m
+Merge: c093e83 a4aeecd
+Author: OJoachim <66662598+OJoachim@users.noreply.github.com>
+Date:   Thu Nov 19 15:22:05 2020 +0100
+
+    Merge branch 'master' into WDP201101-38
+
+[33mcommit bb86d556df130753626128ec8f5f2d71a83d7c56[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 19 11:25:28 2020 +0100
+
+    Update package.lock
+
+[33mcommit 6b24325e28099259bc958bd52a8cc67b57d4a000[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 19 11:03:46 2020 +0100
+
+    Install p.lock
+
+[33mcommit 2d574bcb4faa779d5bc1d7adace64996ab9f9adb[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 13 12:27:38 2020 +0100
+
+    Implement Grid to project and prepar markup for ProductList component according to requirements from ticket -41
+
+[33mcommit a4aeecdebf563af200debe429945f93c87764917[m
+Merge: 0a119ca 09cc250
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Wed Nov 18 23:47:27 2020 +0100
+
+    Merge pull request #38 from odevpl/WDP201101-44
+    
+    WDP101101-44
+
+[33mcommit 09cc2504747a32355e8b4fc892d7784802b49336[m[33m ([m[1;31mupstream/WDP201101-44[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 18 20:00:47 2020 +0100
+
+    Fix bug and make clic on photo and product name lead to proper adress of Link
+
+[33mcommit 0a119ca6f8c3b68dbc556b7d087841ace3aa829f[m
+Merge: bdad8b9 d2d2e16
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Wed Nov 18 18:52:31 2020 +0100
+
+    Merge pull request #36 from odevpl/WDP201101-31
+    
+    Add slider for Brands component WDP201101-31
+
+[33mcommit e9f0cd7faf02956fcbcb414705b21dd6872b6b15[m
+Merge: a29c066 d2d2e16
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 18 18:10:20 2020 +0100
+
+    Merge branch 'WDP201101-31' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit b5c2eecb577216e2b24d827e64a5d104fd8b7eb7[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Mon Nov 16 22:41:19 2020 +0100
+
+    Add Product Page functionality
+
+[33mcommit a29c0667a0b895d2a80e46bcc903c1f16adb48a3[m
+Merge: 2a77b39 bdad8b9
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Tue Nov 17 20:52:13 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit d2d2e1614e98cc494e1666e2c7de5dc57933ccfb[m[33m ([m[1;31mupstream/WDP201101-31[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 17 20:38:20 2020 +0100
+
+    Add slider for Brands component
+
+[33mcommit 70924b1d370b9fff9c57ea38f7570183c028f06c[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Tue Nov 17 20:13:50 2020 +0100
+
+    Add complete banner component
+
+[33mcommit bf6f9b4c3dd0bd2cd98d9fdfb74fd93dc5077a62[m[33m ([m[1;31mupstream/WDP201101-25[m[33m)[m
+Merge: 1053942 bdad8b9
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 16 23:25:31 2020 +0100
+
+    Merge branch 'master' into WDP201101-25
+
+[33mcommit bdad8b9386389cb14cbaa58c6b6b473262e51c3b[m
+Merge: 3691ab3 ac75a2b
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 16 23:04:51 2020 +0100
+
+    Merge pull request #27 from odevpl/WDP201101-43
+    
+    Wdp201101-43
+
+[33mcommit 3691ab314ff02ccb5c31d9d27802c0f6c0b52588[m
+Merge: 761db55 2f06e22
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 16 23:03:37 2020 +0100
+
+    Merge pull request #28 from odevpl/WDP201101-33
+    
+    Add client feedback component
+
+[33mcommit 1053942c9a1fcbdb9f67c2350d7844aed8378251[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 22:22:30 2020 +0100
+
+    Improve design, now all good
+
+[33mcommit f4e79f261c68201c41a2c7d136b207c24c85597c[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 22:07:30 2020 +0100
+
+    Change Sale component design
+
+[33mcommit 2a77b394482c5a0bd8d2a71e66797d33bab3552c[m
+Merge: b691988 761db55
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:15:42 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit 96a2039974afed52168881ac4d41006cadd9a13a[m
+Merge: 0dc64c6 761db55
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 16 20:14:42 2020 +0100
+
+    Merge branch 'master' into WDP201101-19
+
+[33mcommit 0dc64c60b31eadac41a760966a2cdfa1f4b1d4f5[m
+Merge: 4dd7b3a 6f051f5
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:10:49 2020 +0100
+
+    Merge branch 'WDP201101-19' of github.com:odevpl/wdp-2011-01 into WDP201101-19
+
+[33mcommit 4dd7b3a4f74f4967f65419f332c201ac49d23cc5[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 20:08:35 2020 +0100
+
+    remove unnecessary code
+
+[33mcommit b691988b55dbfacf056b0ba84211d17cc40c34b6[m
+Merge: 01e1d78 2f06e22
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 19:42:04 2020 +0100
+
+    Merge branch 'WDP201101-33' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit 4de80b820699592211cc745f1355ce038bbc51cf[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Mon Nov 16 16:19:22 2020 +0100
+
+    Add promo section component
+
+[33mcommit 761db55e3ecb81c9179b4e1f567720a331fd0542[m
+Author: odevpl <kontakt@odev.pl>
+Date:   Mon Nov 16 09:27:46 2020 +0100
+
+    Fix for brands
+
+[33mcommit 2487f472eb4143a8c70c2c2510a23987a37bc44b[m
+Merge: 138f497 4f50855
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 16 09:14:51 2020 +0100
+
+    Merge pull request #22 from odevpl/WDP201101-30
+    
+    Wdp201101 30
+
+[33mcommit 4f50855cc7d299bd6beb24cae0d550fdebb1338c[m[33m ([m[1;31mupstream/WDP201101-30[m[33m)[m
+Merge: 877f62c 138f497
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 16 09:14:29 2020 +0100
+
+    Merge branch 'master' into WDP201101-30
+
+[33mcommit 6f051f59f6ee51d0ad91c78e931f9a69c606fcb7[m
+Merge: fe31572 138f497
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 16 00:05:26 2020 +0100
+
+    Merge branch 'master' into WDP201101-19
+
+[33mcommit fe31572a31668c3b5eab95e6ecc9f3f10d55f9ff[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 16 00:01:43 2020 +0100
+
+    Add fading
+
+[33mcommit c3e1c7bdbaefec60b874cac121efb6fd04f78253[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 23:25:56 2020 +0100
+
+    Add Banner.js and Banner.scss
+
+[33mcommit 01e1d784e0dd4c89cdb63b60af49bac1af7865ae[m
+Merge: fa658ca 138f497
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:25:00 2020 +0100
+
+    Merge branch 'master' of github.com:odevpl/wdp-2011-01 into master
+
+[33mcommit a0cc3c1ef0203a34dd8f1f301a3ff459adba5652[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 15 22:15:55 2020 +0100
+
+    Changes to add fadeIn and fadeOut
+
+[33mcommit 138f4976251179085c730e73cde65a51598ba4e0[m
+Merge: 5f1050e f3bdb30
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sun Nov 15 21:37:20 2020 +0100
+
+    Merge pull request #21 from odevpl/WDP201101-13
+    
+    Add swipe functionality
+
+[33mcommit c093e831555cf3a4915556270a201ccbc2aa9460[m
+Author: Aleksandra Joachimiak <joachim07@poczta.onet.pl>
+Date:   Sat Nov 14 22:49:53 2020 +0100
+
+    WDP201101-38, images in NewFerniture
+
+[33mcommit 2f06e22842d9412f73ace40df3c9e4470e0eccd3[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sat Nov 14 01:20:25 2020 +0100
+
+    Add client feedback component
+
+[33mcommit ac75a2b1a0a13ad9a9dca35d81b3a8dd85925d4c[m[33m ([m[1;31mupstream/WDP201101-43[m[33m)[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 22:00:47 2020 +0100
+
+    Add Link component to ProductBox
+
+[33mcommit 1731844e5105f5f20ec780761b8c37cef2ef697a[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 21:36:35 2020 +0100
+
+    Add href to MenuBar
+
+[33mcommit fa658cabbaea507921fe91087641d1abfe8323a5[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 21:32:12 2020 +0100
+
+    Remove changes for branch 43
+
+[33mcommit f3bdb30a6d59f907ad2aca20b68a9ab8efe53aea[m[33m ([m[1;31mupstream/WDP201101-13[m[33m)[m
+Merge: 0440e18 5f1050e
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Fri Nov 13 21:28:59 2020 +0100
+
+    Merge branch 'master' into WDP201101-13
+
+[33mcommit 53c96f3f73ed081102082189a9f9573db5bac431[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:56:58 2020 +0100
+
+    Add fadeIn to productBox
+
+[33mcommit 3b9beddb48e0e8a4a91f3cdb0f0e63bfa8d228e0[m
+Merge: 3678ea6 3601873
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:28:06 2020 +0100
+
+    Throw out debug.log
+
+[33mcommit 3678ea6efbc52f9a211fa604405711ce3ea503ab[m
+Merge: e2bf699 5f1050e
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:25:30 2020 +0100
+
+    Change mapStateToProps in SaleContainer
+
+[33mcommit e2bf699e7daac0cdbad6752c835f5af1aa696e61[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 13 18:14:10 2020 +0100
+
+    change mapStateToProps in SaleContainer
+
+[33mcommit 5f1050e8a7cd7e205fd4a63e41a1a0c01151ed30[m
+Merge: 8f2a474 60c7826
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 13 16:05:36 2020 +0100
+
+    Merge pull request #23 from odevpl/WDP201101-9
+    
+    Add global animation on hover effect
+
+[33mcommit 8f2a474897f429bdee74f83abbabc309e96728c8[m
+Merge: 0bebbba f72ec67
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 13 16:03:40 2020 +0100
+
+    Merge pull request #17 from odevpl/WDP201101-14
+    
+    Wdp201101 14
+
+[33mcommit 877f62cbdeda6a3cea07cb2f9d08b3791d4da166[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 13 11:24:12 2020 +0100
+
+    Fix bug in MQ of root and restyle of ProductSearch to fit in BurgerMenu
+
+[33mcommit f72ec67156cb6f8df985cc8431ec35d2b8412866[m[33m ([m[1;31mupstream/WDP201101-14[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 13 10:00:45 2020 +0100
+
+    Fix bug in MQ of root and restyle of ProductSearch to fit in BurgerMenu
+
+[33mcommit 1895e5602e581a4d5a48c53429f82d0f9a86dec9[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 12 22:52:17 2020 +0100
+
+    Repair console errors and warnings
+
+[33mcommit 3601873041dfdf2f70faad8d943df31492ae7b49[m
+Merge: 71d0ac4 0bebbba
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Thu Nov 12 22:26:53 2020 +0100
+
+    Merge branch 'master' into WDP201101-25
+
+[33mcommit 71d0ac40d4fc3166a188f6f221e7afd0171fafc0[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 12 22:08:31 2020 +0100
+
+    Finished Sale component
+
+[33mcommit 41be9e3620f03c55afa07213851f315e76d89ff6[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 12 21:47:11 2020 +0100
+
+    Sale component with redux state & styling
+
+[33mcommit 60c7826a48a26734ab6053cf0e28c28fac6c5247[m[33m ([m[1;31mupstream/WDP201101-9[m[33m)[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 12 19:38:53 2020 +0100
+
+    Add global animation on hover effect
+
+[33mcommit 1df31629f3b9976d837fd4b20525ca89d1bfd157[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 12 14:41:14 2020 +0100
+
+    Fix styles after resoliving conlicts
+
+[33mcommit 0d1ed343824187ae710cc94f85ba1f563794ae1f[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 12 11:41:19 2020 +0100
+
+    Reinstall pavkages
+
+[33mcommit f3f5c9748cd665111ff177eb748cfe323702b5e0[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Sun Nov 8 13:01:03 2020 +0100
+
+    Set RWD for MenuBar and prepare BurgerMenu component which is prepared for Routing
+
+[33mcommit 4170cb412da608ba2e4df02975b88df3208c9be2[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 6 16:07:37 2020 +0100
+
+    Set RWD for MenuBar on desktop and tablet sizes
+
+[33mcommit e68515803c01e8ded882067c2629f2b9b7ba32d3[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 21:04:09 2020 +0100
+
+    Add saleContentReducer to store.js
+
+[33mcommit f1b7d2fedb904a87250ddd75f074ff1f4dc2178c[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 20:58:07 2020 +0100
+
+    Add redux to get initialState
+
+[33mcommit b046504358be383688dc54d231a80a096db55f69[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 20:29:07 2020 +0100
+
+    initialState data not loaded to Sale.js
+
+[33mcommit 4dc3a617991c231ad7a80b9220c7b43778c0d67f[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 11 19:33:48 2020 +0100
+
+    Add basic Sale.js
+
+[33mcommit 6903bf0287dd60a4c5116de048e54a4fd7e3fd2a[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 11 12:10:09 2020 +0100
+
+    Add RWD for brands component elems and try to add swipe on this elements
+
+[33mcommit 16b1622985c9c458b78bb6d9ab9432fd0831166e[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 11 10:21:59 2020 +0100
+
+    Create Brands component and prepare RWD for it
+
+[33mcommit 2f6075d60bb0cc8e6ffebc89bdeb17c0b9533e4e[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 11 06:56:31 2020 +0100
+
+    Prepare markup for Brands component
+
+[33mcommit 0bebbba0344d1948b47c04395b67c1d6b75527bd[m
+Merge: aa36dc7 7e21f4e
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 10 22:06:17 2020 +0100
+
+    Merge pull request #20 from odevpl/WDP201101-21
+    
+    Wdp201101 21
+
+[33mcommit dd67d3c54b6216aeb43a13dcd1eabcf029b7cf5b[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 10 15:49:26 2020 +0100
+
+    Commit to switch branches
+
+[33mcommit 7e21f4e378ffbba217e7ebfc46ec95096f46659d[m[33m ([m[1;31mupstream/WDP201101-21[m[33m)[m
+Merge: e552d77 aa36dc7
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 10 15:42:06 2020 +0100
+
+    Fix conflicts after pull
+
+[33mcommit aa36dc7d7b15a98b9c088a78204ef366908fc739[m
+Merge: 0eda28a 18b9956
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Tue Nov 10 08:13:32 2020 +0100
+
+    Merge pull request #16 from odevpl/WDP201101-12
+    
+    Add products comparision functionality
+
+[33mcommit e552d77fdba5d892ef74c2f7e9cbcf9deb616ecd[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 10 01:23:02 2020 +0100
+
+    Finish Stars component by adding hover efects onmouseEnter and Leave
+
+[33mcommit 0440e18aa7fc543f8ec4c06e8a6258ed019126da[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Tue Nov 10 01:20:13 2020 +0100
+
+    Add swipe functionality
+
+[33mcommit f9323b64a6a6ae1e8e920ef6ea2b66543fb9f652[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Tue Nov 10 00:49:24 2020 +0100
+
+    Add star rating to ProductBox component
+
+[33mcommit 18b9956a4c9503409e4e43caea6c26181c4d51ed[m[33m ([m[1;31mupstream/WDP201101-12[m[33m)[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Mon Nov 9 22:51:10 2020 +0100
+
+    Add products comparision functionality
+
+[33mcommit 4ecd8cec5956ce25747cbc8608487384c59c3e30[m
+Merge: 82d4f62 0eda28a
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Mon Nov 9 22:46:38 2020 +0100
+
+    Merge branch 'master' into WDP201101-12
+
+[33mcommit 0eda28ace5189d7b048a5a4b88c2c0ecf0b0292e[m
+Merge: a7fa5bc d3039e4
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Mon Nov 9 21:30:13 2020 +0100
+
+    Merge pull request #19 from odevpl/WDP201101-17
+    
+    WDP201101-17
+
+[33mcommit d3039e43c2ee14b99f733faa4a80db1c2d0522e4[m[33m ([m[1;31mupstream/WDP201101-17[m[33m)[m
+Merge: 5579339 a7fa5bc
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Mon Nov 9 21:06:07 2020 +0100
+
+    Merge branch 'master' into WDP201101-17
+
+[33mcommit 5579339313d0b768b7185371c59c4e2e7f9acca6[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 21:01:15 2020 +0100
+
+    Remove min-width from body in global.scss
+
+[33mcommit 928c25c2a250fc7928578728d23a9b66099d6eed[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Mon Nov 9 20:58:12 2020 +0100
+
+    fade problem
+
+[33mcommit 8e75a3fbf1b5a0104bd9c9e8831c25eff7f61faa[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Mon Nov 9 15:54:43 2020 +0100
+
+    Create new component Stars and prepare logics for component render
+
+[33mcommit a7fa5bc78b7a478ae3b87a5403ea18cfb1edd426[m
+Merge: 7071529 75cdeba
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sun Nov 8 21:27:48 2020 +0100
+
+    Merge pull request #18 from odevpl/WDP201101-18
+    
+    Modify Footer.js, add class col-md, col-sm / RWD
+
+[33mcommit 707152968621fcbb50a8c9f05b0a2efb5c94b366[m
+Merge: db42144 d6a3bd5
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sun Nov 8 21:25:24 2020 +0100
+
+    Merge pull request #9 from odevpl/WDP201101-16
+    
+    Add media queries for FeatureBox
+
+[33mcommit 9880a258cdabcb18c89b23d548399765a28de07f[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sun Nov 8 17:21:44 2020 +0100
+
+    Adjust col display for tablets and mobile phones in NewFurniture.js
+
+[33mcommit d6a3bd55fa5c2160779f4e743230a009fe28f63f[m[33m ([m[1;31mupstream/WDP201101-16[m[33m)[m
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Sun Nov 8 16:55:55 2020 +0100
+
+    Removed commented media queries
+
+[33mcommit 75cdebab78f79b72dacf01d9f0a2d5c82b04ea66[m[33m ([m[1;31mupstream/WDP201101-18[m[33m)[m
+Author: Aleksandra Joachimiak <joachim07@poczta.onet.pl>
+Date:   Sun Nov 8 15:30:00 2020 +0100
+
+    Modify Footer.js, add class col-md, col-sm / RWD
+
+[33mcommit db421440b31ca8b0fdf4c322c73da0fc5a8249a8[m
+Author: odevpl <kontakt@odev.pl>
+Date:   Sun Nov 8 09:26:36 2020 +0100
+
+    fix for product box after merge
+
+[33mcommit 82d4f62dc588282118f7664bf821959491656a79[m
+Author: Joanna Stachowicz <joannastachowicz19@gmail.com>
+Date:   Sat Nov 7 23:23:18 2020 +0100
+
+    Add products comparision functionality
+
+[33mcommit e4e7657ba00f74d8c134a1b0a9c4edba82b3645f[m
+Merge: 7772afa e764234
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sat Nov 7 19:02:33 2020 +0100
+
+    Merge branch 'WDP201101-16' of github.com:odevpl/wdp-2011-01 into WDP201101-16
+
+[33mcommit 7772afa6062373e5aa56d5958ce76463f1162571[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Sat Nov 7 18:59:27 2020 +0100
+
+    Remove commented media queries in FeatureBoxes
+
+[33mcommit 524e85d5a792c71d7be18bf9a30d47e8000df7e3[m
+Merge: ac7da27 82a6b88
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:26:01 2020 +0100
+
+    Merge pull request #8 from odevpl/bug-WDP201101-5
+    
+    bug-WDP201101-5
+
+[33mcommit 82a6b8822fc20acd7930d5f2348f7f732ca25a00[m[33m ([m[1;31mupstream/bug-WDP201101-5[m[33m)[m
+Merge: fa93afe ac7da27
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:25:55 2020 +0100
+
+    Merge branch 'master' into bug-WDP201101-5
+
+[33mcommit ac7da27e5c6ca2818c656356a65545168f73a970[m
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:23:11 2020 +0100
+
+    Update ProductBox.module.scss
+
+[33mcommit 64af3df0076bbc46b27bf3a2f8385c31dfc131e2[m
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:22:03 2020 +0100
+
+    Fix colors
+
+[33mcommit 4fe9443da87c419145c620c3fb5cfb165bbc779a[m
+Merge: a9d289a a8727eb
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:09:56 2020 +0100
+
+    Merge pull request #5 from odevpl/WDP201101-8
+    
+    Reorganize colors in styles/settings.scss
+
+[33mcommit a9d289ad0ae3a5bcb6d454fcbc71192e967f0fbf[m
+Merge: e18c60a fee403d
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:06:06 2020 +0100
+
+    Merge pull request #15 from odevpl/WDP201101-4
+    
+    Wdp201101 4
+
+[33mcommit e18c60a804ee1cc5569073280a4d33bd1626bde5[m
+Merge: 938bd3b 0fc9e1b
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:04:43 2020 +0100
+
+    Merge pull request #14 from odevpl/WDP201101-2
+    
+    WDP201101-2, Modify CompanyClaim.module.scss, class cartCounter
+
+[33mcommit 938bd3bf5673fc9d32a5298b3bbabb187a1c1292[m
+Merge: 6d6c2fb 0c8c02e
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:04:06 2020 +0100
+
+    Merge pull request #13 from odevpl/task-WDP201101-1
+    
+    WDP201101-1, correct error by eslint, ProductBox, line 14
+
+[33mcommit 0c8c02e1f511ba52f35355c1b3c6368566ec1283[m[33m ([m[1;31mupstream/task-WDP201101-1[m[33m)[m
+Merge: efb81a8 6d6c2fb
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Sat Nov 7 16:03:58 2020 +0100
+
+    Merge branch 'master' into task-WDP201101-1
+
+[33mcommit fee403dc35a2341370d1026ba9ff34348e954b4b[m[33m ([m[1;31mupstream/WDP201101-4[m[33m)[m
+Merge: cb74d7d 6d6c2fb
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Fri Nov 6 22:34:01 2020 +0100
+
+    Merge branch 'master' into WDP201101-4
+
+[33mcommit cb74d7d5f647be2b23004e85a84100d459780293[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Fri Nov 6 22:31:47 2020 +0100
+
+    Add all hovers to ProductBox
+
+[33mcommit e7642342436fa934adba0a66b4153b967f934da7[m
+Merge: d002cb2 6d6c2fb
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Fri Nov 6 22:11:17 2020 +0100
+
+    Merge branch 'master' into WDP201101-16
+
+[33mcommit a8727eb13a9ca3f234ea4b8d06f1b397471f8db5[m[33m ([m[1;31mupstream/WDP201101-8[m[33m)[m
+Merge: fffe87e 6d6c2fb
+Author: Epps9 <63508597+Epps9@users.noreply.github.com>
+Date:   Fri Nov 6 22:06:10 2020 +0100
+
+    Merge branch 'master' into WDP201101-8
+
+[33mcommit 0fc9e1b6fbe50229cb384736ded3b62a4cf30634[m[33m ([m[1;31mupstream/WDP201101-2[m[33m)[m
+Author: Aleksandra Joachimiak <joachim07@poczta.onet.pl>
+Date:   Fri Nov 6 19:39:12 2020 +0100
+
+    WDP201101-2, Modify CompanyClaim.module.scss, class cartCounter
+
+[33mcommit fa93afeaf013c846b5759ab3f07d99c775d196b9[m
+Merge: f3fb6d2 6d6c2fb
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Fri Nov 6 18:20:00 2020 +0100
+
+    Merge branch 'master' into bug-WDP201101-5
+
+[33mcommit 6d6c2fb9640d70d9d6a5986c1553a4db40d116e0[m
+Merge: 3e3fdfb a6b5461
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 6 17:22:05 2020 +0100
+
+    Merge pull request #11 from odevpl/RWD-WDP201101-15
+    
+    Rwd wdp201101 15
+
+[33mcommit 3e3fdfbfdacae85d50279380465372cf06eaad03[m
+Merge: d40b210 c1cc799
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 6 17:20:33 2020 +0100
+
+    Merge pull request #10 from odevpl/WDP201101-11
+    
+    Wdp201101 11
+
+[33mcommit d40b2100a20d20264f7eaf65eb57153552c22949[m
+Merge: e07cadb ff55451
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Fri Nov 6 17:15:00 2020 +0100
+
+    Merge pull request #7 from odevpl/WDP201101-10
+    
+    Add drop-down selection category in the search
+
+[33mcommit a6b54619c0e7da00d3ddc9a6769690e47556636e[m[33m ([m[1;31mupstream/RWD-WDP201101-15[m[33m)[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 6 14:38:16 2020 +0100
+
+    Set RWD for top bar and banner
+
+[33mcommit c1cc79949700620ddf5764b1c8c8f64ffcd90569[m[33m ([m[1;31mupstream/WDP201101-11[m[33m)[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Fri Nov 6 13:05:47 2020 +0100
+
+    Add FavouriteProducts functionality
+
+[33mcommit 716300b9fb453a8a8d61d86bad7b9caf669c3f57[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Fri Nov 6 13:01:29 2020 +0100
+
+    Add FavouriteProducts functionality
+
+[33mcommit 3f0e161aa1d373c34b4ea0818ed645988dd8be77[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Fri Nov 6 12:20:26 2020 +0100
+
+    Set RWD for top bar
+
+[33mcommit d002cb26f300e0b33bd3e57aa2ea8a3a4025c222[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Thu Nov 5 22:55:48 2020 +0100
+
+    Add media queries for FeatureBox
+
+[33mcommit f3fb6d2cb1d296db110ecbf1ba5df27945fead58[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Thu Nov 5 22:34:09 2020 +0100
+
+    Set state of Buttons in ProductBox upon its props presence
+
+[33mcommit efb81a8b7c99e3fa3132b3eee11c337118dd835d[m
+Author: Aleksandra Joachimiak <joachim07@poczta.onet.pl>
+Date:   Thu Nov 5 18:45:40 2020 +0100
+
+    WDP201101-1, correct error by eslint, ProductBox, line 14
+
+[33mcommit ff554511512a25abeec566ea24584c786a2602a9[m[33m ([m[1;31mupstream/WDP201101-10[m[33m)[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Thu Nov 5 01:16:23 2020 +0100
+
+    Add drop-down selection category in the search
+
+[33mcommit e07cadb08a192edbfe9d82b1173bc43a9675da53[m
+Merge: 1510a84 46e5c86
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 5 01:10:47 2020 +0100
+
+    Merge pull request #6 from odevpl/WDP201101-6
+    
+    Add olderPrice in ProductBox
+
+[33mcommit 1510a84419725ba933b37037ecca130101b66685[m
+Merge: 8f53420 dbd4aa5
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 5 01:08:06 2020 +0100
+
+    Merge pull request #1 from odevpl/WDP201101-3
+    
+    Wdp201101 3
+
+[33mcommit 8f5342020d5be6a3068af6da0f96420ece7587de[m
+Merge: cfe9653 98d3e59
+Author: odevpl <73441590+odevpl@users.noreply.github.com>
+Date:   Thu Nov 5 01:02:42 2020 +0100
+
+    Merge pull request #4 from odevpl/Bug-WDP201101-7
+    
+    Bug-WDP201101-7)
+
+[33mcommit 46e5c8636fb950c2664cf39527bc34c3b76c881a[m[33m ([m[1;31mupstream/WDP201101-6[m[33m)[m
+Author: Bartosz Janiak <janiak.bartosz92@gmail.com>
+Date:   Wed Nov 4 23:24:58 2020 +0100
+
+    Add olderPrice in ProductBox
+
+[33mcommit fffe87e03d8550c77b8d11431a0c10ddb562cb11[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 4 22:56:52 2020 +0100
+
+    Reorganize colors in styles/settings.scss
+
+[33mcommit 5835f4eb028b22aba97061f61ab4d7d693432836[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 4 21:44:26 2020 +0100
+
+    Problem with price button hover
+
+[33mcommit 502dab0a88babbab8db0e3fee1ae1c52e2f6c310[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 4 21:43:01 2020 +0100
+
+    Add hover on buttons in ProductBox (corrected)
+
+[33mcommit f91b1f1710144003aea137bdb6e314d350accf33[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Wed Nov 4 19:55:20 2020 +0100
+
+    Add hover on buttons in ProductBox
+
+[33mcommit 98d3e599639f26198d1a684cce502accc29cbf8b[m[33m ([m[1;31mupstream/Bug-WDP201101-7[m[33m)[m
+Merge: c2676aa cfe9653
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Wed Nov 4 17:37:47 2020 +0100
+
+    Merge branch 'master' into Bug-WDP201101-7
+
+[33mcommit c2676aa963336e2f255b36c78aaeecbc25cd5256[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 4 17:34:04 2020 +0100
+
+    Restyle select and input of ProductSearch component
+
+[33mcommit cfe9653b0801620b733036749afd5ca14d801bbd[m
+Merge: c3b05b3 b01f36b
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Wed Nov 4 17:32:49 2020 +0100
+
+    Merge pull request #3 from odevpl/revert-2-Bug-WDP201101-7
+    
+    Revert "Bug-WDP201101-7"
+
+[33mcommit b01f36b7c6d9e78238e3fcd2ad3473aa70ba32ab[m
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Wed Nov 4 17:31:48 2020 +0100
+
+    Revert "Bug-WDP201101-7"
+
+[33mcommit c3b05b3978c28c88f67578e983c7170059ee0853[m
+Merge: ad0bfd9 7de50ed
+Author: Bartosz <64915566+BartoszHor@users.noreply.github.com>
+Date:   Wed Nov 4 17:31:32 2020 +0100
+
+    Merge pull request #2 from odevpl/Bug-WDP201101-7
+    
+    Bug-WDP201101-7
+
+[33mcommit 7de50edc607e1fa3ff74bf266e2c8228a920cce8[m
+Author: Bartosz Horoba <bartosz.horoba@gmail.com>
+Date:   Wed Nov 4 17:20:02 2020 +0100
+
+    Restyle select and input of ProductSearch component
+
+[33mcommit dbd4aa5886184a5a9295184d70b4c8db85b246de[m[33m ([m[1;31mupstream/WDP201101-3[m[33m)[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Tue Nov 3 23:04:42 2020 +0100
+
+    Change styles (content and root) in FeatureBox
+
+[33mcommit 384637c864b8663c11db79498a6d2d4f9b25ebdc[m
+Author: Ewa Witkowska <ewa.witkowska09@gmail.com>
+Date:   Tue Nov 3 22:44:02 2020 +0100
+
+    Add hover to class active and Link in FeatureBox
+
+[33mcommit ad0bfd98db5a736ffd863fb7df213f1a1db7fbb1[m
+Author: olinoleum <maciej.oleksy@kodilla.com>
+Date:   Wed Feb 12 12:12:11 2020 +0100
+
+    Update README.md
+
+[33mcommit 2e769c20a2fbcd31d2103c3f08b664ab45126908[m
+Author: Kodilla <support@kodilla.com>
+Date:   Wed Dec 4 15:23:20 2019 +0100
+
+    Init project
