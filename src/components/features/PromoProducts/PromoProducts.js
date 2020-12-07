@@ -30,7 +30,7 @@ class PromoProducts extends React.Component {
   }
 
   timeOutTimer() {
-    this.setState({ timeout: setTimeout(this.intervalTimer, 1000000) });
+    this.setState({ timeout: setTimeout(this.intervalTimer, 10000) });
   }
 
   stopTimeOutTimer() {
