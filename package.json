@@ -2,6 +2,7 @@
   "name": "pizzeria-portal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bartoszhor.github.io/Bart-Electronic-E-Commerce/",
   "scripts": {
     "start": "run-p start:* ",
     "start:react": "react-scripts start",
@@ -13,6 +14,8 @@
     "refactor": "run-s refactor:*",
     "refactor:format": "prettier --write \"src/**/*.{js,html,scss}\"",
     "refactor:lint": "eslint src/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --noStackTrace",
     "test-all": "react-scripts test --watchAll=false --noStackTrace",
