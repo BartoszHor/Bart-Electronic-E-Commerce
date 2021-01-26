@@ -2,7 +2,7 @@
   "name": "pizzeria-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartoszhor.github.io/",
+  "homepage": "https://bartoszhor.github.io/Bart-Electronic-E-Commerce/",
   "scripts": {
     "start": "run-p start:* ",
     "start:react": "react-scripts start",

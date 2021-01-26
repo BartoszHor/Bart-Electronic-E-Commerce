@@ -43,7 +43,7 @@ const ProductBox = ({
           <img
             src={
               process.env.NODE_ENV === 'production'
-                ? `https://bartoszhor.github.io/${image}`
+                ? `https://bartoszhor.github.io/Bart-Electronic-E-Commerce/${image}`
                 : `../${image}`
             }
             alt=''
