@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.75557246.chunk.css",
-    "main.js": "/static/js/main.bec2a10f.chunk.js",
-    "main.js.map": "/static/js/main.bec2a10f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.965ca4a5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.965ca4a5.js.map",
-    "static/css/2.22d6b5ec.chunk.css": "/static/css/2.22d6b5ec.chunk.css",
-    "static/js/2.59180b21.chunk.js": "/static/js/2.59180b21.chunk.js",
-    "static/js/2.59180b21.chunk.js.map": "/static/js/2.59180b21.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7584d982c241c9cd82086a6268d7c1bd.js": "/precache-manifest.7584d982c241c9cd82086a6268d7c1bd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22d6b5ec.chunk.css.map": "/static/css/2.22d6b5ec.chunk.css.map",
-    "static/css/main.75557246.chunk.css.map": "/static/css/main.75557246.chunk.css.map"
+    "main.css": "/Bart-Electronic-E-Commerce/static/css/main.75557246.chunk.css",
+    "main.js": "/Bart-Electronic-E-Commerce/static/js/main.73b0b92a.chunk.js",
+    "main.js.map": "/Bart-Electronic-E-Commerce/static/js/main.73b0b92a.chunk.js.map",
+    "runtime-main.js": "/Bart-Electronic-E-Commerce/static/js/runtime-main.ef7ca153.js",
+    "runtime-main.js.map": "/Bart-Electronic-E-Commerce/static/js/runtime-main.ef7ca153.js.map",
+    "static/css/2.22d6b5ec.chunk.css": "/Bart-Electronic-E-Commerce/static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.59180b21.chunk.js": "/Bart-Electronic-E-Commerce/static/js/2.59180b21.chunk.js",
+    "static/js/2.59180b21.chunk.js.map": "/Bart-Electronic-E-Commerce/static/js/2.59180b21.chunk.js.map",
+    "index.html": "/Bart-Electronic-E-Commerce/index.html",
+    "precache-manifest.bdf1d33f2daad1b4df7a9c5637486067.js": "/Bart-Electronic-E-Commerce/precache-manifest.bdf1d33f2daad1b4df7a9c5637486067.js",
+    "service-worker.js": "/Bart-Electronic-E-Commerce/service-worker.js",
+    "static/css/2.22d6b5ec.chunk.css.map": "/Bart-Electronic-E-Commerce/static/css/2.22d6b5ec.chunk.css.map",
+    "static/css/main.75557246.chunk.css.map": "/Bart-Electronic-E-Commerce/static/css/main.75557246.chunk.css.map"
   }
 }
