@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17b1803716852f399c8e5c916ea33618",
+    "revision": "4fb4b2916b6dcf4701911d023e825c45",
     "url": "/Bart-Electronic-E-Commerce/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bart-Electronic-E-Commerce/static/css/2.22d6b5ec.chunk.css"
   },
   {
-    "revision": "9ba078a341f76c156875",
+    "revision": "5debc1c2b7a159c37293",
     "url": "/Bart-Electronic-E-Commerce/static/css/main.75557246.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bart-Electronic-E-Commerce/static/js/2.81b0d265.chunk.js"
   },
   {
-    "revision": "9ba078a341f76c156875",
-    "url": "/Bart-Electronic-E-Commerce/static/js/main.80bac000.chunk.js"
+    "revision": "5debc1c2b7a159c37293",
+    "url": "/Bart-Electronic-E-Commerce/static/js/main.9327724e.chunk.js"
   },
   {
     "revision": "5e3593b0d35e3b877a8a",
