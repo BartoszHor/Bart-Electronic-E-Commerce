@@ -16,7 +16,7 @@ import Cart from './components/views/Cart/CartContainer';
 const App = () => (
   <Provider store={store}>
     <Alert />
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <MainLayout>
         <Switch>
           <Route exact path={'/'} component={Homepage} />
