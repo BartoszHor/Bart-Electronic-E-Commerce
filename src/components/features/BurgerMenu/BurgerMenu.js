@@ -1,28 +1,39 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './BurgerMenu.module.scss';
+import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 
 const BurgerMenu = ({ categories }) => {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+  const [rerender, setRerender] = useState(true);
+
+  const render = () => {
+    setRerender(!rerender);
+  };
 
   return (
     <div className={styles.navbar}>
       <div className={sidebar ? styles.overlay : ''}>
         <div>
-          <a href='#' className={sidebar ? styles.hideBurger : styles.menuBars}>
+          <Link
+            onClick={render}
+            to='#'
+            className={sidebar ? styles.hideBurger : styles.menuBars}
+          >
             <FaIcons.FaBars className={styles.iconBurger} onClick={showSidebar} />
-          </a>
+          </Link>
         </div>
         <nav
           className={sidebar ? styles.navMenu : styles.navMenu + ' ' + styles.active}
         >
           <ul className={styles.navMenuItems}>
             <li className={styles.navToggle}>
-              <a
-                href={
+              <Link
+                onClick={render}
+                to={
                   process.env.NODE_ENV === 'production'
                     ? `${process.env.PUBLIC_URL}/`
                     : `/`
@@ -32,11 +43,12 @@ const BurgerMenu = ({ categories }) => {
                   onClick={showSidebar}
                   className={styles.iconClose}
                 />
-              </a>
+              </Link>
             </li>
             <li className={styles.item}>
-              <a
-                href={
+              <Link
+                onClick={render}
+                to={
                   process.env.NODE_ENV === 'production'
                     ? `${process.env.PUBLIC_URL}/`
                     : `/`
@@ -44,14 +56,15 @@ const BurgerMenu = ({ categories }) => {
               >
                 <FaIcons.FaHome />
                 <span>Home</span>
-              </a>
+              </Link>
             </li>
 
             {categories.map((item, index) => {
               return (
                 <li key={index} className={styles.item}>
-                  <a
-                    href={
+                  <Link
+                    onClick={render}
+                    to={
                       process.env.NODE_ENV === 'production'
                         ? `${process.env.PUBLIC_URL}/shop/${item.id}`
                         : `/shop/${item.id}`
@@ -59,7 +72,7 @@ const BurgerMenu = ({ categories }) => {
                   >
                     {item.icon}
                     <span>{item.name}</span>
-                  </a>
+                  </Link>
                 </li>
               );
             })}
