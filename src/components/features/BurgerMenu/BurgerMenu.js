@@ -22,26 +22,26 @@ const BurgerMenu = ({ categories }) => {
         >
           <ul className={styles.navMenuItems}>
             <li className={styles.navToggle}>
-              <a href='/'>
+              <Link to='/'>
                 <AiIcons.AiOutlineClose
                   onClick={showSidebar}
                   className={styles.iconClose}
                 />
-              </a>
+              </Link>
             </li>
             <li className={styles.item}>
-              <a href='/'>
+              <Link to='/'>
                 <FaIcons.FaHome />
                 <span>Home</span>
-              </a>
+              </Link>
             </li>
             {categories.map((item, index) => {
               return (
                 <li key={index} className={styles.item}>
-                  <a href={`/shop/${item.id}`}>
+                  <Link to={`/shop/${item.id}`}>
                     {item.icon}
                     <span>{item.name}</span>
-                  </a>
+                  </Link>
                 </li>
               );
             })}
