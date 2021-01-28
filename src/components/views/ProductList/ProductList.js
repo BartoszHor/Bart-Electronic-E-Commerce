@@ -11,7 +11,7 @@ import ProductBox from '../../common/ProductBox/ProductBoxContainer';
 import { useHistory } from 'react-router-dom';
 
 const ProductList = ({ products, getProductByPrice }) => {
-  const [category, setCategory] = useState(window.location.pathname.split('/')[2]);
+  const [category, setCategory] = useState(window.location.pathname.split('/')[3]);
   const [categoryProducts, setCategoryProducts] = useState(
     products.filter(item => item.category === category)
   );
@@ -27,7 +27,7 @@ const ProductList = ({ products, getProductByPrice }) => {
   history.listen(() => {
     setCategory(window.location.pathname.split('/')[3]);
     setCategoryProducts(
-      products.filter(item => item.category === window.location.pathname.split('/')[2])
+      products.filter(item => item.category === window.location.pathname.split('/')[3])
     );
   });
 
