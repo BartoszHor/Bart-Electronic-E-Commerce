@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bart-Electronic-E-Commerce/precache-manifest.2158061bfbb9c2e6ea2e239a4dad255e.js"
+  "/Bart-Electronic-E-Commerce/precache-manifest.7c19561326b0bf87c772f89e60cf93af.js"
 );
 
 self.addEventListener('message', (event) => {
