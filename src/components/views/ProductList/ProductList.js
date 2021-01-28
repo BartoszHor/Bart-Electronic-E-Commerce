@@ -25,7 +25,7 @@ const ProductList = ({ products, getProductByPrice }) => {
   const initialLoad = useRef(false);
 
   history.listen(() => {
-    setCategory(window.location.pathname.split('/')[2]);
+    setCategory(window.location.pathname.split('/')[3]);
     setCategoryProducts(
       products.filter(item => item.category === window.location.pathname.split('/')[2])
     );
@@ -51,7 +51,6 @@ const ProductList = ({ products, getProductByPrice }) => {
     }
     //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [priceValuesFrom, priceValuesTo, initializer]);
-
 
   return (
     <div className={styles.root}>
