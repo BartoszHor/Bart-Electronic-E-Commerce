@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './BurgerMenu.module.scss';
-import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 
@@ -13,35 +12,54 @@ const BurgerMenu = ({ categories }) => {
     <div className={styles.navbar}>
       <div className={sidebar ? styles.overlay : ''}>
         <div>
-          <Link to='#' className={sidebar ? styles.hideBurger : styles.menuBars}>
+          <a href='#' className={sidebar ? styles.hideBurger : styles.menuBars}>
             <FaIcons.FaBars className={styles.iconBurger} onClick={showSidebar} />
-          </Link>
+          </a>
         </div>
         <nav
           className={sidebar ? styles.navMenu : styles.navMenu + ' ' + styles.active}
         >
           <ul className={styles.navMenuItems}>
             <li className={styles.navToggle}>
-              <Link to={`${process.env.PUBLIC_URL}/`}>
+              <a
+                href={
+                  process.env.NODE_ENV === 'production'
+                    ? `${process.env.PUBLIC_URL}/`
+                    : `/`
+                }
+              >
                 <AiIcons.AiOutlineClose
                   onClick={showSidebar}
                   className={styles.iconClose}
                 />
-              </Link>
+              </a>
             </li>
             <li className={styles.item}>
-              <Link to={`${process.env.PUBLIC_URL}/`}>
+              <a
+                href={
+                  process.env.NODE_ENV === 'production'
+                    ? `${process.env.PUBLIC_URL}/`
+                    : `/`
+                }
+              >
                 <FaIcons.FaHome />
                 <span>Home</span>
-              </Link>
+              </a>
             </li>
+
             {categories.map((item, index) => {
               return (
                 <li key={index} className={styles.item}>
-                  <Link to={`${process.env.PUBLIC_URL}/shop/${item.id}`}>
+                  <a
+                    href={
+                      process.env.NODE_ENV === 'production'
+                        ? `${process.env.PUBLIC_URL}/shop/${item.id}`
+                        : `/shop/${item.id}`
+                    }
+                  >
                     {item.icon}
                     <span>{item.name}</span>
-                  </Link>
+                  </a>
                 </li>
               );
             })}
