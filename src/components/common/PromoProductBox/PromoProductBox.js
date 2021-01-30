@@ -5,14 +5,18 @@ import Stars from '../Stars/Stars';
 import HappyHourAd from '../../features/HappyHourAd/HappyHourAd';
 import styles from './PromoProductBox.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faExchangeAlt,
-  faShoppingBasket,
-  faEye,
-} from '@fortawesome/free-solid-svg-icons';
-import { faHeart } from '@fortawesome/free-regular-svg-icons';
+import { faExchangeAlt, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 
 class PromoProductBox extends React.Component {
+  handleAddToCart(id) {
+    this.props.handleAddToCart(id);
+  }
+
+  compareHandler(id) {
+    this.props.handleCompare(id);
+    this.props.handleCompareValue();
+  }
+
   render() {
     const {
       id,
@@ -25,17 +29,13 @@ class PromoProductBox extends React.Component {
       handleStyle,
       starChange,
       stars,
+      handleAddToCart,
     } = this.props;
 
     return (
       <div className={styles.root}>
         <div className={`${styles.photo}`}>
           <img src={image} alt={imageAlt} />
-          <div className={styles.buttons}>
-            <Button variant='small' className={styles.btnAddToCart}>
-              <FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon> ADD TO CART
-            </Button>
-          </div>
         </div>
         <div className={styles.happyHour}>
           <HappyHourAd />
@@ -53,13 +53,14 @@ class PromoProductBox extends React.Component {
         <div className={styles.line}></div>
         <div className={styles.actions}>
           <div className={styles.outlines}>
-            <Button variant='outline'>
-              <FontAwesomeIcon icon={faEye}>Observe</FontAwesomeIcon>
+            <Button
+              className={styles.basket}
+              variant='outline'
+              onClick={() => this.handleAddToCart(id)}
+            >
+              <FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon>
             </Button>
-            <Button variant='outline'>
-              <FontAwesomeIcon icon={faHeart}>Favorite</FontAwesomeIcon>
-            </Button>
-            <Button variant='outline'>
+            <Button variant='outline' onClick={() => this.compareHandler(id)}>
               <FontAwesomeIcon icon={faExchangeAlt}>Add to compare</FontAwesomeIcon>
             </Button>
           </div>
@@ -88,6 +89,9 @@ PromoProductBox.propTypes = {
   handleStyle: PropTypes.func,
   starChange: PropTypes.func,
   stars: PropTypes.number,
+  handleAddToCart: PropTypes.func,
+  handleCompare: PropTypes.func,
+  handleCompareValue: PropTypes.func,
 };
 
 export default PromoProductBox;

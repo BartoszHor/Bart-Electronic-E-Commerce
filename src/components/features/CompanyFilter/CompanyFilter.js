@@ -58,7 +58,6 @@ const CompanyFilter = ({
                   type='checkbox'
                   id={company.name}
                   name={company.name}
-                  //checked={products[company.name]}
                   onChange={e => handleChange(e)}
                 />
                 <label htmlFor={company.name}>

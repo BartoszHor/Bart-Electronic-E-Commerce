@@ -10,7 +10,6 @@ import {
   faChevronLeft,
   faChevronRight,
   faShoppingBasket,
-  faHeart,
   faExchangeAlt,
   faEnvelope,
   faMinus,
@@ -26,7 +25,15 @@ import {
 import ProductMore from '../../common/ProductMore/ProductMoreContainer';
 import { useEffect } from 'react';
 
-const ProductPage = ({ overview, quantity, category, products }) => {
+const ProductPage = ({
+  overview,
+  quantity,
+  category,
+  products,
+  handleAddToCart,
+  handleCompareValue,
+  handleCompare,
+}) => {
   var availability = 'Unavailable';
   if (quantity > 0) {
     availability = `In Stock(${quantity})`;
@@ -115,6 +122,15 @@ const ProductPage = ({ overview, quantity, category, products }) => {
     } else {
       setActiveImage(activeImage + 1);
     }
+  };
+
+  const addToCart = () => {
+    handleAddToCart(currentItem[0].id);
+  };
+
+  const compareHandler = () => {
+    handleCompare(currentItem[0].id);
+    handleCompareValue();
   };
 
   return (
@@ -267,14 +283,11 @@ const ProductPage = ({ overview, quantity, category, products }) => {
                     <Row>
                       <div>
                         <div className={styles.buttons}>
-                          <Button variant='outlineYellow'>
+                          <Button variant='outlineYellow' onClick={addToCart}>
                             <FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon>{' '}
                             ADD TO CART
                           </Button>
-                          <Button variant='outlineYellow'>
-                            <FontAwesomeIcon icon={faHeart} />
-                          </Button>
-                          <Button variant='outlineYellow'>
+                          <Button variant='outlineYellow' onClick={compareHandler}>
                             <FontAwesomeIcon icon={faExchangeAlt} />
                           </Button>
                           <Button variant='outlineYellow'>
@@ -414,6 +427,9 @@ ProductPage.propTypes = {
   category: PropTypes.string.isRequired,
   id: PropTypes.string,
   products: PropTypes.array,
+  handleAddToCart: PropTypes.func,
+  handleCompare: PropTypes.func,
+  handleCompareValue: PropTypes.func,
 };
 
 export default ProductPage;
