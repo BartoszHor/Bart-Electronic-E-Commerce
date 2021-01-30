@@ -16,7 +16,7 @@ const Stars = ({ rate, id, handleStar, handleStyle, starChange }) => {
       {[1, 2, 3, 4, 5].map((star, i) => {
         const ratingValue = i + 1;
         return (
-          <a key={star} href='/'>
+          <span key={star}>
             {star <= rate ? (
               <label>
                 <input type='radio' name='rating' value={ratingValue} />
@@ -40,7 +40,7 @@ const Stars = ({ rate, id, handleStar, handleStyle, starChange }) => {
                 </FontAwesomeIcon>
               </label>
             )}
-          </a>
+          </span>
         );
       })}
     </div>

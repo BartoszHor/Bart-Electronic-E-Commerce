@@ -6,14 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExchangeAlt, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 import Button from '../Button/Button';
 import Stars from '../Stars/StarsContainer';
-import { handleAddToCart } from '../../../redux/productsRedux';
 
 const ProductBox = ({
   image,
   name,
   price,
   promo,
-  heart,
   stars,
   olderPrice,
   handleAddToCart,
@@ -49,18 +47,6 @@ const ProductBox = ({
             alt=''
           />
           {promo && <div className={styles.sale}>{promo}</div>}
-          <div className={styles.buttons}>
-            <div to='/' className={styles.quickView}>
-              <Button variant='small' className={styles.quickView}>
-                Quick View
-              </Button>
-            </div>
-            <div to='/' className={styles.quickView}>
-              <Button variant='small' className={styles.quickView}>
-                <FontAwesomeIcon icon={faShoppingBasket}> </FontAwesomeIcon> ADD TO CART
-              </Button>
-            </div>
-          </div>
         </div>
       </Link>
       <div className={styles.content}>

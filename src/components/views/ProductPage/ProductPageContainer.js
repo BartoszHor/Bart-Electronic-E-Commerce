@@ -1,6 +1,12 @@
 import { connect } from 'react-redux';
 import ProductPage from './ProductPage';
-import { getProductById, getAll } from '../../../redux/productsRedux';
+import {
+  getProductById,
+  getAll,
+  handleAddToCart,
+  handleCompare,
+} from '../../../redux/productsRedux';
+import { handleCompareValue } from '../../../redux/compareRedux';
 
 const imageName = image => {
   if (image.startsWith('http')) {
@@ -20,4 +26,10 @@ const mapStateToProps = (state, props) => {
   };
 };
 
-export default connect(mapStateToProps)(ProductPage);
+const mapDispatchToProps = dispatch => ({
+  handleAddToCart: value => dispatch(handleAddToCart(value)),
+  handleCompare: value => dispatch(handleCompare(value)),
+  handleCompareValue: value => dispatch(handleCompareValue(value)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ProductPage);
