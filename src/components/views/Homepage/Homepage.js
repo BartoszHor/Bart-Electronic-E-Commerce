@@ -19,7 +19,7 @@ const Homepage = () => {
 
     return setTimeout(() => {
       alert.premiumAlert(
-        `Congratulation ${user.userData}!`,
+        `Great ${user.userData}!`,
         <div className={styles.confirmPremium}>
           <h5>You are a Premium User now!</h5>
           <h5>Enjoy your new functionalities!</h5>

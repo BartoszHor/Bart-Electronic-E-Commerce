@@ -60,3 +60,23 @@
     }
   }
 }
+@media (min-width: 319px) and (max-width: 769px) {
+  .container {
+    form {
+      width: 100%;
+      div {
+        width: 70%;
+        margin: auto;
+      }
+      button {
+        width: 50%;
+      }
+    }
+    .descrip {
+      font-size: 0.7rem;
+      .register {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
