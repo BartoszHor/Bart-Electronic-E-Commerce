@@ -47,3 +47,27 @@
     width: 40rem;
   }
 }
+@media (min-width: 319px) and (max-width: 769px) {
+  .container {
+    .content {
+      margin: 0;
+      width: 85%;
+      height: 10rem;
+      position: absolute;
+      top: 70%;
+      left: 55%;
+      div {
+        margin: 1.5rem .2rem;
+      }
+      h3 {
+        margin: 1rem 0 0 1rem;
+        text-align: left;
+      }
+    }
+    .premium {
+      height: auto;
+      top: 50%;
+      right: 10%;
+    }
+  }
+}

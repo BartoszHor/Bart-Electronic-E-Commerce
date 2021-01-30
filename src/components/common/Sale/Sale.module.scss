@@ -93,6 +93,8 @@
       button {
         background: transparent;
         border: none;
+        width: 100%;
+        height: 100%;
       }
 
       .icon {
@@ -108,6 +110,50 @@
   .timer {
     color: red;
     margin-left: 1rem;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 769px) {
+  .root {
+    background: transparent;
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .saleContainer {
+    height: 7rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    .saleContent {
+      margin: 0;
+      padding: 0;
+      h1 {
+        font-size: 2rem;
+        color: $main-dark;
+        text-shadow: 4px 4px 3px $primary;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      h4 {
+        font-size: 1rem;
+        color: $main-dark;
+        text-shadow: 4px 4px 3px $primary;
+      }
+      .reduce {
+        padding: .2rem;
+        font-size: 1.4rem;
+      }
+    }
+    .close {
+      width: 40px;
+      height: 40px;
+      top: -14%;
+      right: -2%;
+    }
   }
 }
 
