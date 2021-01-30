@@ -19,8 +19,10 @@ const CompanyClaim = ({ products }) => {
   const user = React.useContext(UserContext);
   const [width, setWidth] = useState(window.innerWidth);
   const [counter, setCounter] = useState(0);
+
   const handleLogout = () => {
     localStorage.setItem('isLogged', 'false');
+    window.location.reload(false);
   };
 
   useEffect(() => {

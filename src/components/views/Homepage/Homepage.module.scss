@@ -61,3 +61,49 @@
     transform: scale(1);
   }
 }
+@media (min-width: 319px) and (max-width: 768px){
+  .premium {
+    h5 {
+      font-weight: bolder;
+      span {
+        color: $primary;
+        font-size: 1.3rem;
+      }
+    }
+    ul {
+      li {
+        font-size: 1.1rem;
+      }
+    }
+    p{
+      font-size: 1.1rem;
+      text-align: center;
+    }
+    button {
+      background: transparent;
+      border: none;
+      h4 {
+        text-decoration: underline;
+        animation: growUp 2s linear 1s infinite;
+      }
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .confirmPremium {
+    div {
+      margin-top: .5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      button {
+        width: 7rem;
+        height: 3rem;
+        background: $primary;
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+}
