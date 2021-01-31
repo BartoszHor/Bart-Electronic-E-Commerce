@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import styles from './ProductBox.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExchangeAlt, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 import Button from '../Button/Button';
 import Stars from '../Stars/StarsContainer';
+import { AlertContext } from '../../../data/alertData';
 
 const ProductBox = ({
   image,
@@ -24,8 +25,18 @@ const ProductBox = ({
   manufacturer,
   handleCompareValue,
 }) => {
+  const alert = React.useContext(AlertContext);
+  const history = useHistory();
+
   const addToCart = () => {
     handleAddToCart(id);
+    alert.successAlert('Great!', `Product added to the cart`);
+    setTimeout(() => {
+      alert.closeAlert();
+    }, 2500);
+    setTimeout(() => {
+      history.push('/cart');
+    }, 800);
   };
 
   const compareHandler = e => {

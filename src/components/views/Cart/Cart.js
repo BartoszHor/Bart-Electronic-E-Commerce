@@ -65,7 +65,7 @@ const Cart = ({
           const sumPrice = product.price * product.cartCounter;
           return (
             <div key={id} className={styles.option}>
-              <img className={styles.image} src={product.image} />
+              <img className={styles.image} src={product.image} alt={product.name} />
               <p>{product.name}</p>
               <span className={styles.price}>{sumPrice}$</span>
               <form>

@@ -3,72 +3,58 @@
 .root {
     @include flex(center, center);
     flex-wrap: wrap;
-    margin: 5rem; 
-
-
+    margin: 5rem;
     .productRemover {
         cursor: pointer;
-
         span {
             margin: 0 0 0 2px;
         }
     }
-
     .emptyCart {
         margin: 30px 0 0 0;
         color: $primary;
     }
-
     .price {
         min-width: 100px;
     }
-
    .productContainer {
        width: 100%;
-
     .option {
         @include flex(center, space-between);
         flex-wrap: nowrap;
         margin: 20px 0;
     }
-
     .summaryWrapper {
         @include flex(center, center);
         margin: 30px 0 0 0;
         padding: 20px;
         border: 2px solid rgb(233, 224, 224);
         width: auto;
-
         .summary {
             width: 80%;
             text-align: center;
         }
-
         .total {
             @include flex(center, center);
             margin: 20px 0;
-            
             span {
                 margin: 0 0 0 5px;
             }
         }
-
         .confirm {
             background-color: $primary;
             border-radius: 50%;
             width: 100px;
         }
     }
-
     .image {
         width: 70px;
         height: 60px;
     }
-    
+
     .closeIcon {
         cursor: pointer;
     }
-
    }
 }
 .header {
@@ -77,4 +63,6 @@
     width: 100%;
     flex-wrap: nowrap;
 }
+
+
 
