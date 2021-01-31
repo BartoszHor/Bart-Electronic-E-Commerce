@@ -67,7 +67,7 @@ const CompanyClaim = ({ products }) => {
             <div>
               <ul className={styles.list}>
                 <li>
-                  <Link href='/'>
+                  <Link to='/'>
                     <FontAwesomeIcon className={styles.icon} icon={faMobileAlt} />{' '}
                     <span className={styles.topMenuText}>Contact</span>
                   </Link>

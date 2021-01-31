@@ -154,6 +154,7 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
                   <form>
                     <input
                       type='text'
+                      placeholder='Search product to compare...'
                       onChange={e => addProduct(e)}
                       onFocus={e => showDisplay(e)}
                     />
@@ -269,7 +270,7 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
 Compare.propTypes = {
   products: PropTypes.array,
   compareProducts: PropTypes.array,
-  compareValue: PropTypes.bool,
+  compareValue: PropTypes.object,
   handleCompareValue: PropTypes.func,
   compareReset: PropTypes.func,
 };
