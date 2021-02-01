@@ -38,7 +38,10 @@
     }
 
     .menu {
-      text-align: center;
+      select {
+        border: none;
+        margin: 0 0 5px 10px;
+      }
       ul {
         margin: 0;
         padding: 0;
@@ -140,3 +143,27 @@
     opacity:0;
   }
 }
+
+@media (min-width: 768px) {
+  .menu{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+ .root .panelBar .heading .electronics {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .root .panelBar .dots {
+     max-width: 40px;
+     top: 0px;
+     margin: 0;
+
+     ul {
+      transform: translateY(-40px);
+     }
+   }
+ }

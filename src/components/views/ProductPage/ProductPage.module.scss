@@ -201,3 +201,9 @@ input[type=number] {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .root .panelBar .categoryIdentyfier {
+    font-size: 14px;
+  }
+}

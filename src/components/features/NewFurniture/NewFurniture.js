@@ -51,10 +51,21 @@ class NewFurniture extends React.Component {
   }
 
   handleFadeOut(e, newCategory) {
+    console.log(newCategory);
     e.preventDefault();
     this.setState({ fadeTrue: false });
     setTimeout(() => {
       this.handleFadeIn(newCategory);
+    }, 1000);
+  }
+
+  handleFadeOutMobile(e) {
+    e.persist();
+    console.log(e.target.value);
+    e.preventDefault();
+    this.setState({ fadeTrue: false });
+    setTimeout(() => {
+      this.handleFadeIn(e.target.value);
     }, 1000);
   }
 
@@ -116,27 +127,44 @@ class NewFurniture extends React.Component {
               <div className={styles.panelBar}>
                 <div className='row no-gutters align-items-end'>
                   <div className={'col-auto ' + styles.heading}>
-                    <h3>Electronics</h3>
+                    <h3 className={styles.electronics}>Electronics</h3>
                   </div>
-                  <div className={'col ' + styles.menu}>
-                    <ul>
-                      {categories.map(item => {
-                        const preparedClass =
-                          item.id === activeCategory ? styles.active : '';
-                        return (
-                          <li key={item.id}>
-                            <a
-                              href='/'
-                              className={preparedClass}
-                              onClick={e => this.handleFadeOut(e, item.id)}
-                            >
+                  {!mobile && (
+                    <div className={'col ' + styles.menu}>
+                      <ul>
+                        {categories.map(item => {
+                          const preparedClass =
+                            item.id === activeCategory ? styles.active : '';
+                          return (
+                            <li key={item.id}>
+                              <a
+                                href='/'
+                                className={preparedClass}
+                                onClick={e => this.handleFadeOut(e, item.id)}
+                              >
+                                {item.name}
+                              </a>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+                  {mobile && (
+                    <div className={'col ' + styles.menu}>
+                      <select onChange={e => this.handleFadeOutMobile(e)}>
+                        {categories.map(item => {
+                          const preparedClass =
+                            item.id === activeCategory ? styles.active : '';
+                          return (
+                            <option value={item.id} key={item.id}>
                               {item.name}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
+                            </option>
+                          );
+                        })}
+                      </select>
+                    </div>
+                  )}
                   <div className={'col-auto ' + styles.dots}>
                     <ul>{dots}</ul>
                   </div>
