@@ -64,5 +64,20 @@
     flex-wrap: nowrap;
 }
 
+@media (max-width: 768px) {
+    .root {
+      margin: 15px 0;
+      
+      .option {
+          font-size: 12px;
 
+          p {
+              margin: 0;
+          }
+          span {
+              text-align: center;
+          }
+      }
+    }
+  }
 

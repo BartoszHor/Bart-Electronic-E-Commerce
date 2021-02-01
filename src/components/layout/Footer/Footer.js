@@ -116,12 +116,14 @@ const Footer = ({ children }) => (
               styles.copyright
             }
           >
-            <p>©Copyright 2016 Bazar | All Rights Reserved</p>
+            <p className={styles.copyright}>
+              ©Copyright 2021 Bart | All Rights Reserved
+            </p>
           </div>
           <div
             className={'col-lg-4 col-md-6 col-sm-* text-right ' + styles.socialMedia}
           >
-            <ul>
+            <ul className={styles.icons}>
               <li>
                 <a href='/'>
                   <FontAwesomeIcon icon={faTwitter}>Twitter</FontAwesomeIcon>
