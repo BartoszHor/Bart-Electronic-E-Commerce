@@ -53,9 +53,8 @@
       margin: 0;
       width: 85%;
       height: 10rem;
-      position: absolute;
-      top: 70%;
-      left: 55%;
+      @include center();
+      top: 65%;
       div {
         margin: 1.5rem .2rem;
       }

@@ -44,7 +44,7 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
     compareReset();
     setProductTwo([]);
   };
-
+  console.log(productOne);
   useEffect(() => {
     setCompareBox(compareState);
     const filteredCompareProducts = compareProducts.filter(

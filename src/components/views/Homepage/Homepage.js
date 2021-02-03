@@ -16,7 +16,9 @@ const Homepage = () => {
 
   const handleYes = () => {
     localStorage.setItem('isPremium', 'true');
-
+    setTimeout(() => {
+      window.location.reload(false);
+    }, 2000);
     return setTimeout(() => {
       alert.premiumAlert(
         `Great ${user.userData}!`,
@@ -25,7 +27,7 @@ const Homepage = () => {
           <h5>Enjoy your new functionalities!</h5>
         </div>
       );
-    }, 500);
+    }, 400);
   };
 
   const handleNo = () => {

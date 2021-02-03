@@ -132,6 +132,7 @@ const ProductSearch = ({ products }) => {
                           state: { id: option.id },
                         }}
                       >
+                        <img src={option.image} alt={option.name} />
                         {option.name}
                       </Link>
                     </div>

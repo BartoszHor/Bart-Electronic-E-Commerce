@@ -9,9 +9,6 @@
 }
 
 .iconWrapper {
-  //flex-grow: 1;
-  //margin-left: 20%;
-
 .icons {
   display: flex;
   justify-content: flex-end;
@@ -39,7 +36,7 @@
         }
 
         a {
-          display: flex;
+          @include flex(center,center);
           flex-wrap: nowrap;
           text-decoration: none;
           color: $white;
@@ -50,6 +47,7 @@
             color: $white;
             transition: color $transition;
             transform: translateX(2.5px);
+            margin-right: .3rem;
           }
           .iconUserConf {
             color: $main-white;

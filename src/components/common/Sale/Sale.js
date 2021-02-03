@@ -18,7 +18,7 @@ const Sale = ({ saleContent, saleFeedback }) => {
   history.listen(() => {
     if (!userData.isPremium) {
       let time;
-      const rand = Math.floor(Math.random() * 3) + 1;
+      const rand = Math.floor(Math.random() * 49) + 1;
       if (rand === 1) {
         time = setTimeout(() => {
           setSale(true);

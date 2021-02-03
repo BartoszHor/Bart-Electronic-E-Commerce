@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProductPage.module.scss';
 import Button from '../../common/Button/Button';
+import { AlertContext } from '../../../data/alertData';
 import Stars from '../../common/Stars/StarsContainer';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -34,7 +35,7 @@ const ProductPage = ({
   handleCompareValue,
   handleCompare,
 }) => {
-  var availability = 'Unavailable';
+  let availability = 'Unavailable';
   if (quantity > 0) {
     availability = `In Stock(${quantity})`;
   }
@@ -51,6 +52,7 @@ const ProductPage = ({
     return product.id === 'bart-electronic-headphone-24';
   });
   const [activeImage, setActiveImage] = useState(0);
+  const alert = React.useContext(AlertContext);
 
   useEffect(() => {
     const filteredProduct = products.filter(product => {
@@ -126,6 +128,10 @@ const ProductPage = ({
 
   const addToCart = () => {
     handleAddToCart(currentItem[0].id);
+    alert.successAlert('Great!', `Product added to the cart`);
+    setTimeout(() => {
+      alert.closeAlert();
+    }, 2500);
   };
 
   const compareHandler = () => {

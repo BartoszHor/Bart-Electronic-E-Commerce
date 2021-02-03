@@ -3,6 +3,9 @@
 .root {
   background-color: $white;
   margin: 0 0 30px 0;
+  .container {
+    width: 100%;
+  }
 
   :global(.container) > :global(.row) {
     height: auto;
@@ -24,6 +27,7 @@
     .brandsChild {
       display: flex;
       transition-duration: 500ms;
+      width: 100%;
 
       .image {
         border: 1px solid $milk;
