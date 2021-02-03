@@ -16,8 +16,8 @@
     div {
       width: 110%;
     }
-    div:hover {
-      background: $primary;
+    input[type="checkbox"] {
+      cursor: pointer;
     }
     input[type="checkbox"]:before {
       position: relative;
@@ -65,6 +65,7 @@
     label {
       font-size: 1.4rem;
       margin-left: 1.4rem;
+      cursor: pointer;
       span {
         margin-right: .2rem;
         color: $heavenlyGrey;

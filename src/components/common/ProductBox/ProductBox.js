@@ -34,9 +34,6 @@ const ProductBox = ({
     setTimeout(() => {
       alert.closeAlert();
     }, 2500);
-    setTimeout(() => {
-      history.push('/cart');
-    }, 800);
   };
 
   const compareHandler = e => {

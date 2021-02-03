@@ -68,14 +68,16 @@
         justify-content: flex-start;
         width: 100%;
         padding: 5px;
-
         &:hover {
-          .link {
+          .link, img {
             color: $primary;
-            transform: translateY(-8%);
-            box-shadow: 0 0 10px #17DAA3;
-            border-radius: 50%;
+            transform: scale(1.1);
           }
+        }
+        img {
+          width: 3rem;
+          height: 3rem;
+          margin-right: .5rem;
         }
       }
 

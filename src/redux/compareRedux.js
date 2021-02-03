@@ -1,5 +1,4 @@
 /* selectors */
-import { CHANGE_STYLE } from './productsRedux';
 
 export const isCompare = ({ compare }) => compare;
 
