@@ -20,7 +20,15 @@ class ProductMore extends React.Component {
     more.filter(item => {
       for (let key in item) {
         if (item[key].id === 'description' && item[key].id === this.state.activeCart) {
-          showCart = <div> Description component to be displayed </div>;
+          showCart = (
+            <div className={styles.description}>
+              Lorem Ipsum Lorem Lorem Ipsum LoremLorem Ipsum LoremLorem Ipsum LoremLorem
+              Ipsum LoremLorem Ipsum LoremLorem Ipsum LoremLorem Ipsum LoremLorem Ipsum
+              Lorem Lorem Ipsum Lorem Lorem Ipsum LoremLorem Ipsum LoremLorem Ipsum
+              LoremLorem Ipsum LoremLorem Ipsum LoremLorem Ipsum LoremLorem Ipsum
+              LoremLorem Ipsum Lorem
+            </div>
+          );
           return showCart;
         } else if (
           item[key].id === 'reviews(0)' &&

@@ -40,7 +40,12 @@
     .menu {
       select {
         border: none;
-        margin: 0 0 5px 10px;
+        margin: 0 0 5px 15%;
+        color: $primary;
+
+        option {
+          color: $primary;
+        }
       }
       ul {
         margin: 0;
