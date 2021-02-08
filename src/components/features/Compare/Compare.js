@@ -44,7 +44,6 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
     compareReset();
     setProductTwo([]);
   };
-  console.log(productOne);
   useEffect(() => {
     setCompareBox(compareState);
     const filteredCompareProducts = compareProducts.filter(
@@ -71,7 +70,7 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
               {productOne.map((product, index) => {
                 return (
                   <div className={styles.product} key={index}>
-                    <img src={product.image} alt={product.name} />
+                    <img src={`/${product.image}`} alt={product.name} />
                     <h4>{product.name}</h4>
                     <div>
                       <p>
@@ -179,7 +178,7 @@ const Compare = ({ compareProducts, handleCompareValue, compareReset }) => {
               )}
               {productTwo.map((product, index) => (
                 <div key={index} className={`${styles.product} ${styles.productTwo}`}>
-                  <img src={product.image} alt={product.name} />
+                  <img src={`/${product.image}`} alt={product.name} />
                   <h4>{product.name}</h4>
                   <button className={styles.newProduct} onClick={changeProductTwo}>
                     Change

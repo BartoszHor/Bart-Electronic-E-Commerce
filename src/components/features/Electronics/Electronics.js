@@ -2,10 +2,10 @@ import React from 'react';
 import Swipe from 'react-easy-swipe';
 import PropTypes from 'prop-types';
 import Brands from '../../layout/Brands/Brands';
-import styles from './NewFurniture.module.scss';
+import styles from './Electronics.module.scss';
 import ProductBox from '../../common/ProductBox/ProductBoxContainer';
 
-class NewFurniture extends React.Component {
+class Electronics extends React.Component {
   state = {
     activePage: 0,
     activeCategory: 'laptop',
@@ -199,7 +199,7 @@ class NewFurniture extends React.Component {
   }
 }
 
-NewFurniture.propTypes = {
+Electronics.propTypes = {
   children: PropTypes.node,
   categories: PropTypes.arrayOf(
     PropTypes.shape({
@@ -223,9 +223,9 @@ NewFurniture.propTypes = {
   changeFade: PropTypes.func,
 };
 
-NewFurniture.defaultProps = {
+Electronics.defaultProps = {
   categories: [],
   products: [],
 };
 
-export default NewFurniture;
+export default Electronics;

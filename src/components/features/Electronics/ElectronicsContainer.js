@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import NewFurniture from './NewFurniture';
+import Electronics from './Electronics';
 
 import { getAll } from '../../../redux/categoriesRedux.js';
 import { getNew } from '../../../redux/productsRedux.js';
@@ -12,4 +12,4 @@ const mapStateToProps = state => ({
   brands: getAllBrands(state),
 });
 
-export default connect(mapStateToProps)(NewFurniture);
+export default connect(mapStateToProps)(Electronics);

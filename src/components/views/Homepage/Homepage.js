@@ -5,7 +5,7 @@ import { AlertContext } from '../../../data/alertData';
 import styles from './Homepage.module.scss';
 
 import FeatureBoxes from '../../features/FeatureBoxes/FeatureBoxes';
-import NewFurniture from '../../features/NewFurniture/NewFurnitureContainer';
+import Electronics from '../../features/Electronics/ElectronicsContainer';
 import Feedback from '../../features/Feedback/FeedbackContainer';
 import PromoProducts from '../../features/PromoProducts/PromoProductsContainer';
 
@@ -81,7 +81,7 @@ const Homepage = () => {
   return (
     <div className={styles.root}>
       <PromoProducts />
-      <NewFurniture />
+      <Electronics />
       <Feedback />
       <FeatureBoxes />
     </div>

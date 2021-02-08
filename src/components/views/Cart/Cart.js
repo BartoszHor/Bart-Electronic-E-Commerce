@@ -98,6 +98,7 @@ const Cart = ({
                       .map(product => product.price * product.cartCounter)
                       .reduce((a, b) => a + b)
                   : 0}{' '}
+                $
               </span>
             </div>
             <Button variant='outlineYellow'> Confirm Order</Button>
