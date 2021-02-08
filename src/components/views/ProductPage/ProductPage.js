@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProductPage.module.scss';
 import Button from '../../common/Button/Button';
@@ -232,7 +232,7 @@ const ProductPage = ({
                         </Button>
                       </Col>
                     </Row>
-                    <Row>
+                    <Row className={styles.rows} className={styles.rows}>
                       <Col>
                         <div className={styles.review}>
                           <Stars
@@ -249,7 +249,7 @@ const ProductPage = ({
                     </Row>
                   </div>
                   <div className={styles.productDetailsSection}>
-                    <Row>
+                    <Row className={styles.rows}>
                       <div className={styles.quantity}>
                         <p>Quantity</p>
                         <input
@@ -286,7 +286,7 @@ const ProductPage = ({
                     </Row>
                   </div>
                   <div className={styles.productDetailsSection}>
-                    <Row>
+                    <Row className={styles.rows}>
                       <div>
                         <div className={styles.buttons}>
                           <Button variant='outlineYellow' onClick={addToCart}>
@@ -304,7 +304,7 @@ const ProductPage = ({
                     </Row>
                   </div>
                   <div className={styles.productDetailsSection}>
-                    <Row>
+                    <Row className={styles.rows}>
                       <p>
                         <span>Quick Overview</span>
                         <br />
@@ -313,7 +313,7 @@ const ProductPage = ({
                     </Row>
                   </div>
                   <div className={styles.productDetailsSection}>
-                    <Row>
+                    <Row className={styles.rows + ' ' + styles.availability}>
                       <p>
                         <span>
                           Availability:{' '}
@@ -321,7 +321,7 @@ const ProductPage = ({
                         </span>
                       </p>
                     </Row>
-                    <Row>
+                    <Row className={styles.rows}>
                       <p>
                         <span>
                           Category:{' '}
@@ -331,7 +331,7 @@ const ProductPage = ({
                     </Row>
                   </div>
                   <div className={styles.productDetailsSection}>
-                    <Row>
+                    <Row className={styles.rows}>
                       <div>
                         <div className={styles.social}>
                           <Link

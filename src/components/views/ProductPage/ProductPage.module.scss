@@ -1,5 +1,15 @@
 @import "../../../styles/settings.scss";
 
+.rows {
+  margin-left: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid darkgray;
+}
+
+.availability {
+  border-bottom: none;
+}
+
 .row {
   margin-left: 0;
 }
@@ -73,7 +83,6 @@
 
     .productDetailsSection {
       padding: 12px 0;
-      border-bottom: 1px solid $heavenlyGrey;
 
       .headerRow {
         display: flex;

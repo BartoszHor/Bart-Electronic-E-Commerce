@@ -170,7 +170,7 @@ class PromoProducts extends React.Component {
                       <span>{spanName} </span>
                     </h2>
                     <p>{subName}</p>
-                    <Button className={styles.promoBtn}>shop now</Button>
+                    <Button className={styles.promoBtn}>buy now</Button>
                   </div>
                 </div>
               </div>

@@ -66,12 +66,6 @@ const CompanyClaim = ({ products }) => {
           <div className={styles.icons}>
             <div>
               <ul className={styles.list}>
-                <li>
-                  <Link to='/'>
-                    <FontAwesomeIcon className={styles.icon} icon={faMobileAlt} />{' '}
-                    <span className={styles.topMenuText}>Contact</span>
-                  </Link>
-                </li>
                 <li className={styles.cart}>
                   <Link to='/cart'>
                     <span className={styles.counter}>

@@ -17,7 +17,7 @@
   z-index: 99999;
   h1 {
     text-align: center;
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
   .closeButton {
     background: transparent;
@@ -30,6 +30,7 @@
     }
   }
   .products {
+    margin: 2rem 0;
     @include flex(center,center);
     .product {
       @include flex(center, center);
